@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FestivalJazz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Festival de Jazz</h1>
+    
+            <nav class="navegacion-principal">
+                <a href="#artistas">Artistas</a>
+                <a href="#galeria">Galería</a>
+                <a href="#tickets">Tickets</a>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="imagen-portada">
+        <div class="overlay">
+            <div class="contenedor contenido-imagen">
+                <h2>Festival de Jazz</h2>
+                <p>Julio 2022, Guadalajara, México</p>
+            </div>
+        </div>
+        <picture>
+            <source srcset="build/img/imagen-portada.avif" type="image/avif">
+            <source srcset="build/img/imagen-portada.webp" type="image/webp">
+            <img loading="lazy" width="200" heigth="300" src="build/img/imagen-portada.jpg" alt="imagen portada">
+        </picture>
+    </div>
+
+    <section class="contenedor sobre-festival">
+        <div class="imagen">
+            <picture>
+                <source srcset="build/img/imagen-guitarra.avif" type="image/avif">
+                <source srcset="build/img/imagen-guitarra.webp" type="image/webp">
+                <img loading="lazy" width="200" heigth="300" src="build/img/imagen-guitarra.jpg" alt="imagen guitarra">
+            </picture>
+        </div>
+        <div class="contenido-festival">
+            <h2>Festival de Jazz</h2>
+            <p class="fecha">Diciembre 2022, Córdoba, Argentina</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ullam minima ipsam cumque, accusamus voluptas ut temporibus a placeat minus sunt molestiae architecto excepturi, eum tempore vel omnis reiciendis quis.</p>
+        </div>
+    </section>
+
+    <section id="artistas" class="artistas">
+        <h3>Artistas</h3>
+
+        <p class="dia">Viernes 23</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario internacional bg-verde">
+                <p class="nombre-escenario">Escenario Internacional</p>
+
+                <ul class="calendario">
+                    <li>
+                        17:00 | <span>Antonio Hart</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Sebastián Jordán Quinteto</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Giulia Valle</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Simona Premazzi</span>
+                    </li>
+                    <li>
+                        21:00 | <span>Nik Bärtsch</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Slowfox</span>
+                    </li>
+                </ul>
+            </div> <!--.escenario-->
+
+            <div class="escenario nacional bg-celeste">
+                <p class="nombre-escenario">Escenario Nacional</p>
+
+                <ul class="calendario">
+                    <li>
+                        17:00 | <span>Big Band Regional</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Carlos Alberto Rufino</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Raúl Sánchez Reynoso</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Jorge López Ruiz</span>
+                    </li>
+                    <li>
+                        21:00 | <span>Juan Carlos "Mono" Fontana</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Oscar Alemán</span>
+                    </li>
+                </ul>
+            </div> <!--.escenario-->
+        </div> <!--.escenario-contenedor-->
+
+        <p class="dia">Sábado 24</p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario internacional bg-celeste">
+                <p class="nombre-escenario">Escenario Nacional</p>
+
+                <ul class="calendario">
+                    <li>
+                        17:00 | <span>Javier Malosetti</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Luis Salinas</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Jorge López Ruiz</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Trio Fattoruso</span>
+                    </li>
+                    <li>
+                        21:00 | <span>Luis Alberto Spinetta</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Juan Cruz de Urquiza</span>
+                    </li>
+                </ul>
+            </div> <!--.escenario-->
+
+            <div class="escenario nacional bg-verde">
+                <p class="nombre-escenario">Escenario Interacional</p>
+
+                <ul class="calendario">
+                    <li>
+                        17:00 | <span>Gina Savino</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Moritz Weiss Klezmer Trio</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Sebastián Jordán Quinteto</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Simona Premazzi</span>
+                    </li>
+                    <li>
+                        21:00 | <span>Slowfox</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Antonio Hart</span>
+                    </li>
+                </ul>
+            </div> <!--.escenario-->
+        </div> <!--.escenario-contenedor-->
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galería</h3>
+
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <section id="tickets" class="tickets bg-celeste">
+        <h3>Tickets</h3>
+
+        <div class="contenedor contenedor-tickets">
+            <div class="basico pase">
+                <p class="nombre-pase">Pase 1 Día</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a Ambos Escenarios</li>
+                        <li>Comida y Bebida</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$1000</p>
+                </footer>
+            </div>
+
+            <div class="premium pase">
+                <p class="nombre-pase">Pase 2 Días</p>
+                <header class="pase-header">
+                    <p>Incluye</p>
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>Acceso a Ambos Escenarios</li>
+                        <li>Comida y Bebida</li>
+                        <li>Camisa del Evento</li>
+                        <li>Acceso VIP</li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>$1800</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p>Festival de Jazz. Todos los derechos reservados</p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
+
+</body>
+</html>
